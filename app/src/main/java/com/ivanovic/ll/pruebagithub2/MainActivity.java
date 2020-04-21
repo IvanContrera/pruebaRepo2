@@ -10,5 +10,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        double b = 0;
+    }
+
+
+    public double absoluto(double a)
+    {
+        return Math.sqrt(Math.pow(a,2));
     }
 }
