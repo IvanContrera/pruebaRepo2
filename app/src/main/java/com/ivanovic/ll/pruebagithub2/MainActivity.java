@@ -12,11 +12,22 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         double b = 0;
+        int fact = factorial(6);
     }
 
 
     public double absoluto(double a)
     {
         return Math.sqrt(Math.pow(a,2));
+    }
+
+    public int factorial(int a)
+    {
+        int fact = 1;
+        for(int i = 2; i <= a; i++)
+        {
+            fact = fact*i;
+        }
+        return fact;
     }
 }
