@@ -11,7 +11,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        double b = 0;
+        double b = -6;
+        double c = absoluto(b);
         int fact = factorial(6);
     }
 
