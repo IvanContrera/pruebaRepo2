@@ -6,4 +6,7 @@ public class animales {
     {
 
     }
+
+    public void volar()
+    {}
 }
