@@ -31,4 +31,9 @@ public class MainActivity extends AppCompatActivity {
         }
         return fact;
     }
+
+    public int funcionNueva()
+    {
+        return 12;
+    }
 }
