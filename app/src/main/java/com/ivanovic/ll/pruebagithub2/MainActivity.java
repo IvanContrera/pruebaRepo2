@@ -36,4 +36,9 @@ public class MainActivity extends AppCompatActivity {
     {
         return 12;
     }
+
+    public String getPais()
+    {
+        return "Arg";
+    }
 }
