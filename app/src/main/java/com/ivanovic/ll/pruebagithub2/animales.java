@@ -6,5 +6,6 @@ public class animales {
     {
         int a = 0;
         int b = a;
+        int l = 56;
     }
 }
