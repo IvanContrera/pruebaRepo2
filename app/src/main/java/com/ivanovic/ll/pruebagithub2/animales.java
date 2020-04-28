@@ -5,5 +5,6 @@ public class animales {
     public animales()
     {
         int a = 0;
+        int b = a;
     }
 }
